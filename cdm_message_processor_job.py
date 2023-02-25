@@ -4,15 +4,10 @@ from datetime import datetime
 
 from typing import Any, Dict, List 
 
- 
-
 from lib.pg import PgConnect 
 
 from pydantic import BaseModel 
 
- 
-
- 
 
 class CdmRepository: 
 
@@ -20,7 +15,6 @@ class CdmRepository:
 
         self._db = db 
 
- 
 
     # функция наполнения витрины 
 
